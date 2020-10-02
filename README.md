@@ -18,4 +18,53 @@ CREATE TABLE `beneficiario` (
 
 </code>
 
-<p>Nesta versão o banco tem apenas uma coluna, que é a que vai guarda o nome dos beneficiarios.</p>
+<p>Nesta versão o banco tem apenas uma coluna, ela e a que  vai guarda o nome dos beneficiário.</p>
+
+<p>Mas você pode usar a API, com beneficiário fixo e só seguir os passo abaixo.</p>
+
+<h5>Passo 01</h5>
+Vá até a pagina <b>index.php</b>,troque o código abaixo
+<code>
+
+ <center>
+                            <label><b>Beneficiário:</b></label> <a type="button" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-plus"></i></a>
+                            <select name="beneficiario" class="form-control">
+                                <option value="2" disabled>Escolha o Benificiario</option>
+                                <?php
+
+                                foreach ($beneficiarios as $beneficos) {
+                                    var_dump($beneficos);
+                                    echo "<option value=" . $beneficos[0] . " >" . $beneficos[1] . "</option>";
+                                }
+
+                                ?>
+                            </select>
+                            <label><b>Email :</b></label> <input name="email" type="email" class="form-control">
+                            <label><b>Nome :</b></label> <input name="nome" class="form-control">
+                            <label><b>Valor:</b></label> <input name="valor" type="number" class="form-control">
+</center>
+
+</code>
+
+por esse código aqui.
+<code>
+<!--center>
+                            <label><b>Beneficiário:</b></label> <a type="button" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-plus"></i></a>
+                            <select name="beneficiario" class="form-control">
+                                <option value="2" disabled>Escolha o Benificiario</option>
+                                <?php
+
+                                foreach ($beneficiarios as $beneficos) {
+                                    var_dump($beneficos);
+                                    echo "<option value=" . $beneficos[0] . " >" . $beneficos[1] . "</option>";
+                                }
+
+                                ?>
+                            </select>
+                            <label><b>Email :</b></label> <input name="email" type="email" class="form-control">
+                            <label><b>Nome :</b></label> <input name="nome" class="form-control">
+                            <label><b>Valor:</b></label> <input name="valor" type="number" class="form-control">
+                        </center-->
+                        
+</code>
+
