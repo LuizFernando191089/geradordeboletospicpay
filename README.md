@@ -23,9 +23,18 @@ CREATE TABLE `beneficiario` (
 <p>Mas você pode usar a API, com beneficiário fixo e só seguir os passo abaixo.</p>
 
 <h5>Passo 01</h5>
-Vá até a pagina <b>index.php</b>,remova código abaixo:<br>
+Vá até a pagina <b>index.php</b>,remova código abaixo:
+<br>
+<br>
 <code>
  <img src="https://uploaddeimagens.com.br/images/002/905/683/full/01.png" widht='150px'>
 </code>
 
-
+<h5>Passo 02</h5>
+<br>
+<br>
+Vá até a pagina <b>beneficiario.php</b>,renomei código abaixo:
+<code>$beneficiario = $_POST['beneficiario'];</code>
+<br>
+para:
+<code>$beneficiario = "Seu_usuario_aqui";</code>
