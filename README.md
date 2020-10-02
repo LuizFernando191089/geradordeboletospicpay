@@ -23,47 +23,9 @@ CREATE TABLE `beneficiario` (
 <p>Mas você pode usar a API, com beneficiário fixo e só seguir os passo abaixo.</p>
 
 <h5>Passo 01</h5>
-Vá até a pagina <b>index.php</b>,troque o código abaixo:<br>
+Vá até a pagina <b>index.php</b>,remova código abaixo:<br>
 <code>
- <center>
-                <label><b>Beneficiário:</b></label> <a type="button" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-plus"></i></a>
-                            <select name="beneficiario" class="form-control">
-                                <option value="2" disabled>Escolha o Benificiario</option>
-                                <?php
-
-                                foreach ($beneficiarios as $beneficos) {
-                                    var_dump($beneficos);
-                                    echo "<option value=" . $beneficos[0] . " >" . $beneficos[1] . "</option>";
-                                }
-
-                                ?>
-                            </select>
-                            <label><b>Email :</b></label> <input name="email" type="email" class="form-control">
-                            <label><b>Nome :</b></label> <input name="nome" class="form-control">
-                            <label><b>Valor:</b></label> <input name="valor" type="number" class="form-control">
-</center>
-
+ ![Alt text](https://uploaddeimagens.com.br/images/002/905/683/full/01.png?raw=true "Remova")
 </code>
-por esse código aqui.
-<br>
-<code>
-[!--center]
-                            <label><b>Beneficiário:</b></label> <a type="button" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-plus"></i></a>
-                            <select name="beneficiario" class="form-control">
-                                <option value="2" disabled>Escolha o Benificiario</option>
-                                <?php
 
-                                foreach ($beneficiarios as $beneficos) {
-                                    var_dump($beneficos);
-                                    echo "<option value=" . $beneficos[0] . " >" . $beneficos[1] . "</option>";
-                                }
-
-                                ?>
-                            </select>
-                            <label><b>Email :</b></label> <input name="email" type="email" class="form-control">
-                            <label><b>Nome :</b></label> <input name="nome" class="form-control">
-                            <label><b>Valor:</b></label> <input name="valor" type="number" class="form-control">
-                        </center-->
-                        
-</code>
 
