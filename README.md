@@ -29,11 +29,10 @@ Vá até a pagina <b>index.php</b>,remova código abaixo:
 <code>
  <img src="https://uploaddeimagens.com.br/images/002/905/683/full/01.png" widht='150px'>
 </code>
-
 <h5>Passo 02</h5>
 <br>
-<br>
 Vá até a pagina <b>beneficiario.php</b>,renomei código abaixo:
+<br>
 <code>$beneficiario = $_POST['beneficiario'];</code>
 <br>
 para:
