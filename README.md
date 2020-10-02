@@ -33,7 +33,9 @@ Vá até a pagina <b>index.php</b>,remova código abaixo:
 <br>
 Vá até a pagina <b>beneficiario.php</b>,renomei código abaixo:
 <br>
+<br>
 <code>$beneficiario = $_POST['beneficiario'];</code>
 <br>
 para:
+<br>
 <code>$beneficiario = "Seu_usuario_aqui";</code>
