@@ -23,11 +23,10 @@ CREATE TABLE `beneficiario` (
 <p>Mas você pode usar a API, com beneficiário fixo e só seguir os passo abaixo.</p>
 
 <h5>Passo 01</h5>
-Vá até a pagina <b>index.php</b>,troque o código abaixo
+Vá até a pagina <b>index.php</b>,troque o código abaixo:<br>
 <code>
-
  <center>
-                            <label><b>Beneficiário:</b></label> <a type="button" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-plus"></i></a>
+                <label><b>Beneficiário:</b></label> <a type="button" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-plus"></i></a>
                             <select name="beneficiario" class="form-control">
                                 <option value="2" disabled>Escolha o Benificiario</option>
                                 <?php
@@ -45,10 +44,10 @@ Vá até a pagina <b>index.php</b>,troque o código abaixo
 </center>
 
 </code>
-
 por esse código aqui.
+<br>
 <code>
-<!--center>
+[!--center]
                             <label><b>Beneficiário:</b></label> <a type="button" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-plus"></i></a>
                             <select name="beneficiario" class="form-control">
                                 <option value="2" disabled>Escolha o Benificiario</option>
