@@ -25,7 +25,7 @@ CREATE TABLE `beneficiario` (
 <h5>Passo 01</h5>
 Vá até a pagina <b>index.php</b>,remova código abaixo:<br>
 <code>
- ![Alt text](https://uploaddeimagens.com.br/images/002/905/683/full/01.png?raw=true "Remova")
+ <img src="https://uploaddeimagens.com.br/images/002/905/683/full/01.png" widht='150px'>
 </code>
 
 
