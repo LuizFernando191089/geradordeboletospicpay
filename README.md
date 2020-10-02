@@ -5,6 +5,7 @@
 <ol>Mysql</ol>
 <ol>Bootstrap 4.5</ol>
 <ol>Jquery v3.5.1</ol>
+<ol>Font Awesome 4.7.0</ol>
 </ul>
 <h3>Instalação Banco de Dados</h3>
 <h4>Dentro da pasta Banco_de_dados tem um dump do banco, que e citado abaixo.</h4>
