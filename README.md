@@ -1,11 +1,11 @@
 # Gerador de Boletos PicPay
 <h2>Configurações do Projeto (Versão 01)</h2>
 <ul>
-<ol>PHP7.4</ol>
-<ol>Mysql</ol>
-<ol>Bootstrap 4.5</ol>
-<ol>Jquery v3.5.1</ol>
-<ol>Font Awesome 4.7.0</ol>
+<ol><b>PHP7.4</b></ol>
+<ol><b>Mysql</b></ol>
+<ol><b>Bootstrap 4.5</b></ol>
+<ol><b>Jquery v3.5.1</b></ol>
+<ol><b>Font Awesome 4.7.0</b></ol>
 </ul>
 <h3>Instalação Banco de Dados</h3>
 <h4>Dentro da pasta Banco_de_dados tem um dump do banco, que e citado abaixo.</h4>
